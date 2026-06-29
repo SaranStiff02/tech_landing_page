@@ -67,3 +67,59 @@ reveldor-software-landing-page/
 │   └── style.css
 └── js/
     └── nav.js
+💼 Business Use Case
+
+This website can be used by a:
+
+🏢 Software company
+🎓 IT training institute
+💻 Digital service provider
+🧑‍💼 Startup business
+📚 Workshop or course provider
+🎯 What I Learned
+✅ Creating a responsive webpage layout
+✅ Building a navigation menu
+✅ Using CSS grid and media queries
+✅ Adding image and video assets
+✅ Writing JavaScript for menu interaction
+✅ Organising a frontend project professionally
+✅ Preparing a project for GitHub portfolio
+🔮 Future Improvements
+🔲 Add contact form validation
+🔲 Add service cards
+🔲 Add footer section
+🔲 Add animations
+🔲 Add GitHub Pages deployment link
+🔲 Convert the project into React
+👨‍💻 Author
+
+Saran Kumar Krishnan
+
+<p> <img src="https://img.shields.io/badge/GitHub-SaranStiff02-black?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/Portfolio-Frontend_Project-green?style=for-the-badge"> </p> ```
+Important issue in your folder structure
+
+In your README, this part is not closed properly:
+
+└── js/
+    └── nav.js
+
+You must close the code block with:
+
+
+So it should be:
+
+````markdown
+```text
+└── js/
+    └── nav.js
+
+## To save and upload changes
+
+After editing `README.md`, run:
+
+```bash
+git add README.md
+git commit -m "Improve README with icons and badges"
+git push
+```
+
