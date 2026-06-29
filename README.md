@@ -84,6 +84,9 @@ This website can be used by a:
 ✅ Writing JavaScript for menu interaction
 ✅ Organising a frontend project professionally
 ✅ Preparing a project for GitHub portfolio
+
+
+
 🔮 Future Improvements
 🔲 Add contact form validation
 🔲 Add service cards
@@ -91,33 +94,10 @@ This website can be used by a:
 🔲 Add animations
 🔲 Add GitHub Pages deployment link
 🔲 Convert the project into React
+
+
 👨‍💻 Author
-
 Saran Kumar Krishnan
-
-<p> <img src="https://img.shields.io/badge/GitHub-SaranStiff02-black?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/Portfolio-Frontend_Project-green?style=for-the-badge"> </p> ```
-Important issue in your folder structure
-
-In your README, this part is not closed properly:
-
-└── js/
-    └── nav.js
-
-You must close the code block with:
-
-
-So it should be:
-
-````markdown
-```text
-└── js/
-    └── nav.js
-
-## To save and upload changes
-
-After editing `README.md`, run:
-
-```bash
 git add README.md
 git commit -m "Improve README with icons and badges"
 git push
